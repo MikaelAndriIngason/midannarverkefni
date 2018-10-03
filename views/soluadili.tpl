@@ -35,4 +35,5 @@
 
 <h3>Kort</h3>
 <a href="https://www.google.com/maps/place/iceland/"><img src="https://maps.googleapis.com/maps/api/staticmap?center=iceland&zoom=6&scale=1&size=600x350&maptype=roadmap&format=png&visual_refresh=true{{mark}}" alt="Google Map of iceland"></a>
+<img width="600" src="https://maps.googleapis.com/maps/api/staticmap?center=Albany,+NY&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of Albany, NY">
 <p>* Sýnir bara fyrstu 15 staðsetningarnar</p>
