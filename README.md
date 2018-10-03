@@ -1,1 +1,1 @@
-# midannarverkefni
+# Miðannarverkefni
