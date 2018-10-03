@@ -1,5 +1,11 @@
-# coding=UTF-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+import os
+from os import environ as env
+from sys import argv
+
+import bottle
 import urllib.request, json
 from bottle import run, route, static_file, error, request, default_app, get, response, template
 
@@ -41,5 +47,4 @@ def static_skrar(skra):
 def error404(error):
     return template('errorsida', errorn="404 síða fannst ekki")
 
-if __name__ == "__main__":
-    run(debug=True)
+bottle.run(host='0.0.0.0', port=argv[1])
