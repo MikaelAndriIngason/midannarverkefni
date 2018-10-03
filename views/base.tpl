@@ -2,11 +2,11 @@
 <head>
   <title>{{title or 'No title'}}</title>
   <link rel="stylesheet" href="/static/skeleton.css">
-  <link rel="icon" href="/static/icon.png">
+  <link rel="icon" href="/static/Icon.png">
 </head>
 <body class="container">
     <header>
-        <h2><img src="/static/icon.png" height="50" width="50"> {{title}}</h2>
+        <h2><img src="/static/Icon.png" height="50" width="50"> {{title}}</h2>
         %if title != "Forsíða":
             <a href="/" class="button button-primary">Forsíða</a>
         % end
